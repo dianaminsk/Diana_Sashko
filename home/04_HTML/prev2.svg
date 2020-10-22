@@ -1,0 +1,23 @@
+<svg width="40" height="40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient2209">
+   <stop stop-color="#98c3f2" offset="0" id="stop2211"/>
+   <stop stop-color="#98c3f2" stop-opacity="0" offset="1" id="stop2213"/>
+  </linearGradient>
+  <linearGradient y2="0.92413" y1="0" xlink:href="#linearGradient2209" x2="0.5247" x1="0.26127" id="linearGradient2520"/>
+  <linearGradient y2="-0.14751" y1="0.94612" xlink:href="#linearGradient2209" x2="0.72122" x1="0.9539" id="linearGradient2546"/>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="42" width="42" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 3</title>
+  <g id="layer3" stroke="null">
+   <path stroke-dashoffset="0" stroke-miterlimit="4" marker-end="none" marker-mid="none" marker-start="none" stroke-width="3" fill-rule="evenodd" fill="#61a6f4" id="path2174" d="m32.56366,20.2717a12.33902,12.33902 0 1 1 -24.67804,0a12.33902,12.33902 0 1 1 24.67804,0z" stroke="#4f90d6"/>
+   <path fill="url(#linearGradient2546)" fill-rule="evenodd" stroke-width="0" stroke-miterlimit="4" stroke-dashoffset="0" id="path2540" d="m23.22429,31.24827c3.06349,-0.82086 5.49647,-2.84017 6.95296,-5.44029c2.36561,-5.60019 -6.46049,7.51128 -13.75054,5.12933c2.11925,0.77722 4.47353,0.93368 6.79757,0.31096l0.00001,0z" stroke="null"/>
+   <path fill="url(#linearGradient2520)" fill-rule="evenodd" stroke-width="0" stroke-miterlimit="4" stroke-dashoffset="0" id="path2197" d="m20.24347,8.79978c-6.34311,0 -11.49086,5.28321 -11.49086,11.79324c0,0.88043 0.0977,1.73738 0.27625,2.56291c6.3058,-12.13835 13.09982,-4.4976 21.85948,-7.0041c-1.71062,-4.31019 -5.83281,-7.35205 -10.64486,-7.35205l-0.00001,0z" stroke="null"/>
+   <polygon class="st0" points="27.601806640625,18.709381103515625 27.601806640625,18.709381103515625 27.601806640625,18.69952392578125 21.71612548828125,18.69854736328125 17.775390625,18.691162109375 20.665679931640625,15.22174072265625 22.651580810546875,12.84808349609375 22.643341064453125,12.84808349609375 22.651580810546875,12.838211059570312 18.448883056640625,12.8355712890625 12.082489013671875,20.480621337890625 18.448883056640625,28.125701904296875 20.96044921875,28.125701904296875 22.648345947265625,28.125701904296875 19.737640380859375,24.626556396484375 17.77862548828125,22.261505126953125 27.562957763671875,22.261505126953125 27.592926025390625,22.261749267578125 27.592926025390625,22.261505126953125 27.5992431640625,22.261505126953125 27.601806640625,22.261505126953125 27.601806640625,18.72021484375 " fill="#ffffff" id="svg_1" stroke="null"/>
+  </g>
+ </g>
+</svg>

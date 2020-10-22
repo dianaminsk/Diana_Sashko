@@ -1,0 +1,16 @@
+<svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="42" width="42" y="-1" x="-1"/>
+ </g>
+ <g id="svg_4" stroke="null">
+  <title>Layer 1</title>
+  <g id="layer1" stroke="null">
+   <path d="m31.56364,20.7717a11.839,11.839 0 1 1 -23.67801,0a11.839,11.839 0 1 1 23.67801,0z" id="path2174" fill="#ffffff" fill-rule="evenodd" stroke-width="3" marker-start="none" marker-mid="none" marker-end="none" stroke-miterlimit="4" stroke-dashoffset="0" stroke="#4f90d6"/>
+   <path d="m22.60273,31.30347c2.93935,-0.78759 5.27373,-2.72508 6.67121,-5.21983c2.26974,-5.37325 -6.19869,7.2069 -13.19332,4.92148c2.03337,0.74572 4.29225,0.89585 6.52212,0.29836l-0.00001,-0.00001z" id="path2540" stroke-dashoffset="0" stroke-miterlimit="4" stroke-width="0" fill-rule="evenodd" fill="#ffffff" stroke="null"/>
+   <path d="m19.7427,9.76466c-6.08607,0 -11.02522,5.06912 -11.02522,11.31534c0,0.84475 0.09374,1.66697 0.26505,2.45905c6.05027,-11.64646 12.56898,-4.31534 20.97367,-6.72027c-1.6413,-4.13553 -5.59644,-7.05412 -10.2135,-7.05412z" id="path2197" stroke-dashoffset="0" stroke-miterlimit="4" stroke-width="0" fill-rule="evenodd" fill="#ffffff" stroke="null"/>
+   <path id="svg_2" fill="#61a6f4" d="m19.6668,9.01788c-6.50157,0 -11.77204,5.27047 -11.77204,11.77204c0,6.50143 5.27047,11.77204 11.77204,11.77204c6.50143,0 11.77204,-5.27061 11.77204,-11.77204c0,-6.50157 -5.27061,-11.77204 -11.77204,-11.77204zm0,4.73659l1.77418,1.78926l1.26779,1.28596l0,-0.00754l0.0074,0.00754l0,-1.56927l1.55607,0l0,3.13845l1.1189,1.12823l0.78896,0.80298l-2.17134,0l0,6.01266l0,0.01094l-3.13716,0l0,-2.61017l-2.4095,0l0,2.60962l0,0.00051l-3.13716,0l0,-6.02356l-1.28711,0l-0.88663,-0.00524l6.47968,-6.53413l0.03591,-0.03624l0,0l0.00001,0z" class="st0" stroke="null"/>
+  </g>
+ </g>
+</svg>

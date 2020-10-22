@@ -1,0 +1,25 @@
+<svg width="40" height="40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient2209">
+   <stop id="stop2211" offset="0" stop-color="#98c3f2"/>
+   <stop id="stop2213" offset="1" stop-opacity="0" stop-color="#98c3f2"/>
+  </linearGradient>
+  <linearGradient id="linearGradient2520" x1="0.26127" x2="0.5247" xlink:href="#linearGradient2209" y1="0" y2="0.92413"/>
+  <linearGradient id="linearGradient2546" x1="0.9539" x2="0.72122" xlink:href="#linearGradient2209" y1="0.94612" y2="-0.14751"/>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="42" height="42" id="canvas_background" fill="none"/>
+ </g>
+ <g>
+  <title>Layer 2</title>
+  <g stroke="null" id="layer2">
+   <path stroke="#4f90d6" d="m30.56367,19.25706a12.33902,12.33902 0 1 1 -24.67805,0a12.33902,12.33902 0 1 1 24.67805,0z" id="path2174" fill="#61a6f4" fill-rule="evenodd" stroke-width="3" marker-start="none" marker-mid="none" marker-end="none" stroke-miterlimit="4" stroke-dashoffset="0"/>
+   <path stroke="null" d="m21.22429,30.23364c3.06349,-0.82086 5.49647,-2.84017 6.95297,-5.44029c2.36561,-5.60019 -6.46049,7.51128 -13.75054,5.12934c2.11925,0.77722 4.47353,0.93368 6.79758,0.31096l-0.00001,-0.00001z" id="path2540" stroke-dashoffset="0" stroke-miterlimit="4" stroke-width="0" fill-rule="evenodd" fill="url(#linearGradient2546)"/>
+   <path stroke="null" d="m18.24347,7.78513c-6.34311,0 -11.49087,5.28322 -11.49087,11.79324c0,0.88043 0.0977,1.73738 0.27625,2.56291c6.30581,-12.13835 13.09983,-4.4976 21.85949,-7.0041c-1.71062,-4.31019 -5.83281,-7.35205 -10.64487,-7.35205z" id="path2197" stroke-dashoffset="0" stroke-miterlimit="4" stroke-width="0" fill-rule="evenodd" fill="url(#linearGradient2520)"/>
+  </g>
+  <g stroke="null" id="svg_3" transform="rotate(179.71920776367188 19.1168212890625,19.35888671875) ">
+   <polygon stroke="null" id="svg_1" fill="#ffffff" points="27.30352783203125,17.49017333984375 27.30352783203125,17.49017333984375 27.30352783203125,17.479766845703125 21.093963623046875,17.478759765625 16.93634033203125,17.470947265625 19.985687255859375,13.81060791015625 22.08087158203125,11.30633544921875 22.07220458984375,11.30633544921875 22.08087158203125,11.295928955078125 17.646881103515625,11.2930908203125 10.930145263671875,19.35888671875 17.646881103515625,27.4246826171875 20.296661376953125,27.4246826171875 22.077484130859375,27.4246826171875 19.006561279296875,23.73297119140625 16.93975830078125,21.23773193359375 27.2625732421875,21.23773193359375 27.29412841796875,21.238037109375 27.29412841796875,21.23773193359375 27.30084228515625,21.23773193359375 27.30352783203125,21.23773193359375 27.30352783203125,17.5015869140625 " class="st0"/>
+  </g>
+ </g>
+</svg>
