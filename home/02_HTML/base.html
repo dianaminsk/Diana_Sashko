@@ -1,16 +1,33 @@
 <!doctype html>
-
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="utf-8">
     <title>Прогноз погоды</title>
+    <style>
+        table
+        {
+            border: 1px solid black;
+            width: 600px; 
+            margin-left:auto; 
+            margin-right:auto;
+        } 
+        th
+        {
+            border: 1px solid black;
+            } 
+        td
+        {
+            text-align : left; 
+            border: 1px solid black;
+        }  
+    </style>
 </head>
 
 <body>
     <br>
     <br>
     <br>
-    <table width="600" border="1" align="center">
+    <table>
         <caption><i>Прогноз погоды</i></caption>
         <thead>
             <tr>
@@ -24,16 +41,16 @@
         <tbody>
             <tr>
                 <th><b>Минск</b></th>
-                <td align="left">-5&#176;</td>
-                <td align="left">+5&#176;</td>
-                <td align="left" rowspan="2">+2&#176;</td>
-                <td align="left">-10&#176;</td>                
+                <td>-5&#176;</td>
+                <td>+5&#176;</td>
+                <td rowspan="2">+2&#176;</td>
+                <td>-10&#176;</td>                
             </tr>
             <tr>
                 <th><b>Брест</b></th>
-                <td align="left">0<sup>o</sup></td>
-                <td align="left">+9<sup>o</sup></td>
-                <td align="left">-4<sup>o</sup></td>                
+                <td>0<sup>o</sup></td>
+                <td>+9<sup>o</sup></td>
+                <td>-4<sup>o</sup></td>                
             </tr>
         </tbody>
     </table>

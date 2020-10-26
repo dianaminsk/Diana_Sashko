@@ -1,6 +1,8 @@
-<!DOCTYPE html> 
-<HTML> 
-<HEAD><META charset="utf-8"><TITLE>Пример страницы</TITLE>
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Пример страницы</title>
     <style>
         .header1 {font-size: medium; text-align: right; }
         .header2 {font-size: small;}
@@ -11,19 +13,19 @@
         #part2 {color:#2F5D00; font-weight: bold; font-size: small;}
         #part3 {color:#5D5D00; font-style: italic; font-size: small;}
         #part4 {color:#5D5D00; font-style: italic; font-size: small;}
-        #part5 {font-size: normal; font-weight: normal; font-style: italic;}
-        #part6 {font-size: normal; color:#5D5D00; font-style: italic;}
+        #part5 {font-size : medium; font-weight: normal; font-style: italic;}
+        #part6 {font-size: medium; color:#5D5D00; font-style: italic;}
         #part7 {color:#5C3800; font-size: larger; font-style: italic;}
         #part8 {font-size: large; color:#C7D400; font-style: italic;}
         #part9 {font-weight: bold; font-size: smaller;}
         #part10 {font-size: smaller;}
     </style>
-</HEAD> 
-<BODY> 
+</head> 
+<body> 
 <header class="header1">
     <h1 class="header1">Пример сопроводительного письма программиста</h1>
     <address>10943, Одесса – 43, ул. Малышева, 33, кв.15</address> 
-    <time> 15 марта 2006 г.</time> 
+    <div> 15 марта 2006 г.</div> 
     <span>Г-ну Иванову Петру Васильевичу,<br>Менеджеру по персоналу<br>Компании ВСС,</span>
     <address> 10946, Днепропетровск – 46, ул. Валдая, 47</address> 
 </header>
@@ -45,9 +47,11 @@
 <hr>
 <header class="body2">
     <h1 class="header2">Пример сопроводительного письма программиста</h1>
-    <address id="part1">10943, Одесса – 43, ул. Малышева, 33, кв.15</address> 
-    <time id="part1"> 15 марта 2006 г.</time> 
-    <span id="part1">Г-ну Иванову Петру Васильевичу,<br></span>
+    <div id="part1">
+        <address>10943, Одесса – 43, ул. Малышева, 33, кв.15</address> 
+        <span> 15 марта 2006 г.</span> 
+        <span>Г-ну Иванову Петру Васильевичу,<br></span>
+    </div>
     <span id="part2">Менеджеру по персоналу<br></span>
     <span id="part3">Компании ВСС,</span>
     <address id="part4"> 10946, Днепропетровск – 46, ул. Валдая, 47</address> 
@@ -66,5 +70,5 @@
     <p id="part9">Спасибо за уделенное время и внимание.</p> 
     <p id="part10">Сергей Миронов</p>
 </footer>
-</BODY> 
-</HTML> 
+</body> 
+</html> 

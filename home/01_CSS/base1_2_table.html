@@ -1,4 +1,5 @@
-﻿<html lang="en">
+﻿<!doctype html>
+<html lang="ru">
 <head>
     <meta charset="utf-8">
     <title>HOW-TO: Программа на Python</title>
@@ -51,14 +52,14 @@
         каждая строка и пойдём дальше.<br><br>
         Введите эти 4 строки:<br><br>
     </p>
-    <code>
-        <pre>
+    <pre>
+        <code>
 #!/usr/bin/env python
 print 'Hello. I am a python program.'
 name = raw_input("What is your name?")
 print "Hello there, " + name + "!"
-        </pre>
-    </code>
+        </code>
+    </pre>
     <p>
         Это всё. Сохраните файл как <b>hello.py</b> в любом месте. Я предлагаю сохранить его в папке
         <b>python_examples</b> в домашнем каталоге. Этот пример показывает, как просто написать
@@ -67,15 +68,15 @@ print "Hello there, " + name + "!"
         <b><u><i>chmod +x hello.py</i></u></b>
         <br><br>в папке, в которой вы сохранили программу. Теперь запустите её.<br>
     </p>
-    <code>
-        <pre>
+    <pre>
+        <code>
 greg@earth:~/python_examples$ ./hello.py
 Hello. I am a python program.
 What is your name? Ferd Burphel
 Hello there, Ferd Burphel!
 greg@earth:~/python_examples$
-        </pre>
-    </code>
+        </code>
+    </pre>
     <p>Вот и всё.<br></p>
 
     <h2 id="ch2">Пример цикла For</h2>
@@ -83,18 +84,20 @@ greg@earth:~/python_examples$
     <p>
         Теперь давайте рассмотрим пример программирования цикла. Запустите текстовый
         редактор и наберите следующую программу:<br>
-    <code>
-        <pre>
+    </p>
+    <pre>
+        <code>
 #!/usr/bin/env python
 for cntr in range(0,10):
     print cntr
-        </pre>
-    </code>
+        </code>
+    </pre>
+    <p>
         <i>Не забудьте поставить символ табуляции перед строкой «print cntr».</i> Это важно. В
         Python для указания на блоки кода используются не круглые «(» и фигурные «{» скобки
         как в других языках программирования, а отступы.<br><br>
     </p>
-    <table width="100%">
+    <table style="width : 100%">
         <tr>
             <td style="text-align: left"><a href=""><img src="prev.png" alt="Назад" title="Prev"></a></td>
             <td style="text-align: center"><a href="#contents"><img src="home.png" alt="К началу" title="Home"></a></td>
