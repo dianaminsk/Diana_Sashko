@@ -1,6 +1,5 @@
 <!doctype html>
-
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="utf-8">
     <title>Формы</title>
@@ -8,7 +7,7 @@
 
 <body>
     <h1>Формы</h1>
-    <table width="700">
+    <table style="width : 700px">
         <tbody>
             <tr>    
                 <td>
@@ -36,7 +35,7 @@
                     <form id="simple2" method="get" action="http://fe.it-academy.by/TestForm.php">
                         <fieldset>
                             <legend>Строка поиска</legend>
-                            <input type="text" name="searchresult" autofocus required/>
+                            <input type="text" id="searchresult" name="searchresult" autofocus required/>
                             <label for="searchresult">*</label>
                             <input type="submit" value="Искать">
                             <br>
@@ -102,7 +101,7 @@
                             </label>
                             <br>
                             <input type="submit" value="Отправить">
-                            <input type="hidden" name="date_voite", value="2013.12.31">
+                            <input type="hidden" name="date_voite" value="2013.12.31">
                             <div><i>Есть скрытое поле name=date_voite, value="2013.12.31"</i></div>
                         </fieldset>  
                     </form>
@@ -140,7 +139,7 @@
                                 <option value="Минск">Минск</option>
                                 <option value="Витебск">Витебск</option>
                             </select>
-                            <select name="cities2" size=8 multiple>
+                            <select name="cities2" size="8" multiple>
                                 <optgroup label="Города РБ">
                                     <option value="Брест">Брест</option>
                                     <option value="Минск">Минск</option>
@@ -177,14 +176,14 @@
                 </td>   
                 <td>
                     <h3>Валидация данных HTML5:</h3>
-                    <form id="file" method="get" action="http://fe.it-academy.by/TestForm.php">
+                    <form id="file1" method="get" action="http://fe.it-academy.by/TestForm.php">
                         <fieldset>
                             <legend>Строка поиска</legend>
-                            <input type="text" name="russian" pattern='[А-Яа-я]+'/>
+                            <input type="text" name="russian" pattern="[А-Яа-я]+"/>
                             <div><i>Телефонный номер в формате
                                 +ХХХ-ХХ-ХХХХХХХ, где Х - любое число</i></div>
                             <input type="text" name="phone"
-                              pattern='[&plus;][0-9]{3}-[0-9]{2}-[0-9]{7}'/>
+                              pattern="[&plus;][0-9]{3}-[0-9]{2}-[0-9]{7}"/>
                             <br><input type="submit" value="Проверить">
                         </fieldset>  
                     </form>
