@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Blocks</title>
+    <style>
+        .navigation
+        {
+            background-color:lightgray;
+            width: 30%;
+            float: left;
+        }
+        .article
+        {
+            background-color:grey;
+            width: 70%;
+            float: left;
+            margin-bottom :0.2em;
+        }
+        .footer
+        {
+            background-color:lightgray;
+            height: fit-content;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <h2>Блок навигации</h2>
+        <ul>
+            <li>Ширина 15em</li>
+            <li>Должен присутствовать цвет фона</li>
+            <li>Располагается слева</li>
+            <li>Блок навигации наполните контентом достаточным, чтобы по высоте он начинал
+                захватывать вторую статью, как показано в данном примере
+            </li>
+        </ul>
+    </div>
+    <div class="article">   
+        <h2>Статья 1</h2>
+        Размер блока: Занимает всю доступную ширину<br>
+        Должен присутствовать цвет фона<br>
+        Во всех статьях сделайте отступ снизу от соседей равным .2em при помощи
+        свойства margin-bottom
+    </div>
+    <div class="article">
+        <h2>Статья 2</h2>
+        Размер блока: Занимает всю доступную ширину<br>
+        Должен присутствовать цвет фона<br>
+        Во всех статьях сделайте отступ снизу от соседей равным .2em при помощи
+        свойства margin-bottom. Картинка вставлена при помощи тега, плавание
+        организовано по правому краю внутри данной статьи для этой картинки.
+        <img style="float:right" src="mail.png" alt="email">
+    </div>
+    <div class="footer">
+        Нижний блок, подвал. Занимает всю доступную шириную Высота определяется
+        помещенным внутрь контентом.
+    </div>
+</body>
+
+</html>

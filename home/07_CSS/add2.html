@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Cards</title>
+    <style>
+        .flexible
+        {
+            display: flex;
+            flex-flow: row wrap;
+        }
+        .navigation 
+        {
+            background-color: lightgray;
+            width : 30%;
+            height:fit-content;
+        }
+    
+        .articles 
+        {
+            background-color: grey;
+            width : 70%;
+            height: fit-content;
+        }
+    
+        .footer 
+        {
+            background-color: lightgray;
+            height: fit-content;
+            width :100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flexible">
+    <div class="navigation">
+        <h2>Блок навигации</h2>
+        <ul>
+            <li>Ширина 15em</li>
+            <li>Должен присутствовать цвет фона</li>
+            <li>Располагается слева</li>
+            <li>Блок навигации наполните контентом достаточным, чтобы по высоте он начинал
+                захватывать вторую статью, как показано в данном примере
+            </li>
+        </ul>
+    </div>
+    <div class="articles">
+        <div>
+            <h2>Статья 1</h2>
+            Размер блока: Занимает всю доступную ширину<br>
+            Должен присутствовать цвет фона<br>
+            Во всех статьях сделайте отступ снизу от соседей равным .2em при помощи
+            свойства margin-bottom
+        </div>
+        <div>
+            <h2>Статья 2</h2>
+            Размер блока: Занимает всю доступную ширину<br>
+            Должен присутствовать цвет фона<br>
+            Во всех статьях сделайте отступ снизу от соседей равным .2em при помощи
+            свойства margin-bottom. Картинка вставлена при помощи тега, плавание
+            организовано по правому краю внутри данной статьи для этой картинки.
+            <img style="float:right" src="mail.png" alt="email">
+        </div>
+    </div>
+    <div class="footer">
+        Нижний блок, подвал. Занимает всю доступную ширину. Высота определяется
+        помещенным внутрь контентом.
+    </div>
+    </div>
+</body>
+
+</html>
