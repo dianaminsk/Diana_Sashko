@@ -1,81 +1,80 @@
 <!doctype html>
 <html lang="ru">
-<html> 
-        <head> 
-            <meta charset="utf-8"> 
-            <title>Форматы файлов</title> 
-		    <style type="text/css">
-                p 
-                {
-                    text-indent:1em;
-                    padding: 5px;
-                    border:2px solid lightgray;
-                    border-radius:0 1em/2em 
-                }
-                p a[href$="doc"]
-                {
-                    background-image:url('pic/logo-doc.jpg');
-                    background-position: right;
-                    background-repeat: no-repeat;
-                    padding-right: 20px;
-                }
-                p a[href$="pdf"][href^="files"]
-                {
-                    background-image:url('pic/logo-pdf.png');
-                    background-position: right;
-                    background-repeat: no-repeat;
-                    padding-right: 20px;
-                }
-                p a[href$="zip"][href^="files"]
-                {
-                    background-image:url('pic/logo-zip.gif');
-                    background-position: right;
-                    background-repeat: no-repeat;
-                    padding-right: 20px;
-                }
-                a[href^="http"]
-                {
-                    padding-left: 10px;
-                    padding-right: 0;
-                    background-image:url('pic/extref.png');
-                    background-position: left;
-                    background-repeat: no-repeat;
-                }
-                li
-                {   
-                    list-style: none;
-                }
-                li a
-                {
-                    padding-left: 20px;
-                    background-image:url('pic/logo-list.jpg');
-                    background-position: left;
-                    background-repeat: no-repeat;
-                }
-                li:hover a[href$="pdf"]
-                {
-                    padding-right: 20px;
-                    background-image:url('pic/logo-list.jpg'), url('pic/logo-pdf.png');
-                    background-position: left, right;
-                    background-repeat: no-repeat;
-                }
-                li:hover a[href$="doc"]
-                {
-                    padding-right: 20px;
-                    background-image:url('pic/logo-list.jpg'), url('pic/logo-doc.jpg');
-                    background-position: left, right;
-                    background-repeat: no-repeat;
-                }
-                li:hover a[href$="zip"]
-                {
-                    padding-right: 20px;
-                    background-image:url('pic/logo-list.jpg'), url('pic/logo-zip.gif');
-                    background-position: left, right;
-                    background-repeat: no-repeat;
-                }
-		    </style>	
-        </head> 
-        <body>
+    <head> 
+        <meta charset="utf-8"> 
+        <title>Форматы файлов</title> 
+        <style>
+            p 
+            {
+                text-indent:1em;
+                padding: 5px;
+                border:2px solid lightgray;
+                border-radius:0 1em/2em 
+            }
+            p a[href$="doc"]
+            {
+                background-image:url('pic/logo-doc.jpg');
+                background-position: right;
+                background-repeat: no-repeat;
+                padding-right: 20px;
+            }
+            p a[href$="pdf"][href^="files"]
+            {
+                background-image:url('pic/logo-pdf.png');
+                background-position: right;
+                background-repeat: no-repeat;
+                padding-right: 20px;
+            }
+            p a[href$="zip"][href^="files"]
+            {
+                background-image:url('pic/logo-zip.gif');
+                background-position: right;
+                background-repeat: no-repeat;
+                padding-right: 20px;
+            }
+            a[href^="http"]
+            {
+                padding-left: 10px;
+                padding-right: 0;
+                background-image:url('pic/extref.png');
+                background-position: left;
+                background-repeat: no-repeat;
+            }
+            li
+            {   
+                list-style: none;
+            }
+            li a
+            {
+                padding-left: 20px;
+                background-image:url('pic/logo-list.jpg');
+                background-position: left;
+                background-repeat: no-repeat;
+            }
+            li:hover a[href$="pdf"]
+            {
+                padding-right: 20px;
+                background-image:url('pic/logo-list.jpg'), url('pic/logo-pdf.png');
+                background-position: left, right;
+                background-repeat: no-repeat;
+            }
+            li:hover a[href$="doc"]
+            {
+                padding-right: 20px;
+                background-image:url('pic/logo-list.jpg'), url('pic/logo-doc.jpg');
+                background-position: left, right;
+                background-repeat: no-repeat;
+            }
+            li:hover a[href$="zip"]
+            {
+                padding-right: 20px;
+                background-image:url('pic/logo-list.jpg'), url('pic/logo-zip.gif');
+                background-position: left, right;
+                background-repeat: no-repeat;
+            }
+        </style>	
+    </head> 
+    <body>
         <h2>Форматы файлов.</h2>
         <p>.DOC или .doc (от англ. <a href="https://ru.wikipedia.org/wiki/Doc" target="_blank">document</a>) — расширение имени файла, используемое для файлов, представляющих текст, с разметкой или без.Расширение .DOC часто использовалось для обозначения простых текстовых файлов без форматирования, однако позже стало использоваться для двоичных форматов с разметкой.<br>
         <a href="files/document.doc">Документ MS Word</a>
@@ -96,6 +95,5 @@
         	<li><a href="files/document.pdf">Документ PDF</a></li>
         	<li><a href="files/document.zip">Архив</a></li>
         </ul>
-
     </body> 
 </html> 
